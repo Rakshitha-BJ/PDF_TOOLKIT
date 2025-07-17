@@ -7,6 +7,7 @@ A **powerful, user-friendly PDF Utility Tool** built using Python and Streamlit.
 
 ---
 
+
 ## 🚀 Features
 
 ### 📄 PDF Reading & Extraction
@@ -34,7 +35,6 @@ A **powerful, user-friendly PDF Utility Tool** built using Python and Streamlit.
 
 ### 🧠 AI & Advanced Tools
 - Summarize PDF text using NLP (Transformers)
-- OCR for scanned/image PDFs using Tesseract
 - Text-to-Speech: Convert text to MP3
 - Keyword search + heatmap visualization
 - Real-time simulated annotations

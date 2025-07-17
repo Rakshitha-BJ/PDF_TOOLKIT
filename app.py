@@ -18,7 +18,7 @@ if uploaded_file:
     tab1, tab2, tab3, tab4, tab5 = st.tabs([
         "📄 Extract", 
         "✂️ Manipulate", 
-        "🚀 AI & OCR", 
+        "🚀 AI", 
         "🔐 Security & Bookmarks", 
         "📝 Create PDF"
     ])
@@ -120,10 +120,6 @@ if uploaded_file:
             heatmap = ai_features.keyword_heatmap(pdf_path, keyword)
             st.image(heatmap, caption="Keyword Frequency Heatmap")
 
-        st.subheader("🧾 OCR for Scanned PDFs")
-        if st.button("Run OCR"):
-            ocr_text = ai_features.ocr_pdf(pdf_path)
-            st.text_area("OCR Text", ocr_text, height=300)
 
         st.subheader("🎧 Text-to-Speech (TTS)")
         if st.button("Generate Audio"):
