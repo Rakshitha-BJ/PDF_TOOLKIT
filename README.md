@@ -1,5 +1,4 @@
-download poppler
-https://github.com/oschwartz10612/poppler-windows/releases/
+
 
 # 📄 PDF Utility Tool – Streamlit App
 
@@ -49,7 +48,8 @@ A **powerful, user-friendly PDF Utility Tool** built using Python and Streamlit.
 - Thumbnail preview of each page
 
 ---
-
+download poppler
+https://github.com/oschwartz10612/poppler-windows/releases/
 ## 🛠️ Installation
 
 ### 📦 Step 1: Clone the Repo
